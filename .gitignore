@@ -1,0 +1,13 @@
+# Credenciais (use config/secrets.example.php como modelo)
+config/secrets.php
+config/database.sqlite
+
+# Uploads de usuários
+uploads/*
+!uploads/.gitkeep
+
+# Sistema / editores
+.DS_Store
+.idea/
+.vscode/
+*.log
